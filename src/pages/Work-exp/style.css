@@ -1,0 +1,19 @@
+.work-exp {
+    padding-left: 150px;
+    margin-top: 60px;
+    color: white;
+  }
+  .work-exp hr {
+    color: white;
+    width: 400px;
+    margin: 10px auto;
+  }
+  .work-exp h2 {
+    font-weight: bold;
+    color: white;
+  }
+  .work-exp h2:hover {
+    color: var(--pink);
+  }
+
+  

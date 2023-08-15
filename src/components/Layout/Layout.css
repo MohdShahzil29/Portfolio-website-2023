@@ -1,0 +1,35 @@
+.slidebar-section {
+  display: flex;
+  /* background-color: var(--orange); */
+  background: rgba(5, 5, 22, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+}
+.slidebar {
+  height: 100vh;
+  width: 90px;
+  background: rgba(19, 242, 228, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-color: black;
+  position: fixed;
+}
+.slidbar-toggle {
+  width: 230px;
+}
+.slidbar-toggle-icon {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  cursor: pointer;
+}
+.slidbar-toggle-icon p svg {
+  margin-top: 30px;
+  font-size: 35px;
+  color: white;
+}

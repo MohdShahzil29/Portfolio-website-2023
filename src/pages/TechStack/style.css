@@ -1,0 +1,32 @@
+.tech-stack {
+  padding-left: 150px;
+  margin-top: 60px;
+  color: white;
+}
+.tech-stack hr {
+  color: white;
+  width: 400px;
+  margin: 10px auto;
+}
+.tech-stack h2 {
+  font-weight: bold;
+  color: white;
+}
+.tech-stack h2:hover {
+  color: var(--pink);
+}
+.tech-stack .card {
+  cursor: pointer;
+}
+.tech-stack .tech-icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.tech-stack .card:hover {
+  box-shadow: -2px -3px 28px 12px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  background-color: var(--pink);
+  color: white;
+  transition: 1s;
+}

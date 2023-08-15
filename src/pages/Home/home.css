@@ -1,0 +1,33 @@
+.home-container{
+    height: 300px;
+    color: white;
+    /* margin-left: 150px; */
+}
+.home-content h1 {
+    padding: 5px;
+    padding-top: 80px;
+    margin-left: 150px;
+}
+.home-content h2 {
+    padding: 5px;
+    /* padding-top: 80px; */
+    margin-left: 150px;
+    color: var(--pink);
+}
+
+.home-button{
+    margin-left: 150px;
+    padding-top: 20px;
+}
+
+.home-button .btn-hire {
+    color: white;
+
+    background-color: rgb(255, 0, 0);
+}
+.home-button .btn-cv {
+    color: white;
+
+    background-color: rgb(255, 0, 0);
+    margin-left: 10px;
+}

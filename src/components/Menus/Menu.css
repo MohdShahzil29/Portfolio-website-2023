@@ -1,0 +1,33 @@
+.nav-profole-pic img{
+    height: 150px;
+    border-radius: 90px;
+    display: flex;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.nav-item{
+    color: white;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.nav-link{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.nav-link svg {
+    margin-right: 20px;
+}
+
+.nav-item :hover{
+    color: var(--pink);
+}
+
+.nav-link .active {
+    color: var(--pink);
+    border-left: 5px solid white;
+    padding-left: 10px;
+    text-decoration: none;
+}
